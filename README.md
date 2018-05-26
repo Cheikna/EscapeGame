@@ -1,1 +1,2 @@
 # EscapeGame
+Langage utilisé : C++
