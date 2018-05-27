@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "GameFramework/Actor.h"
 #include "PositionReport.h"
+#include "GameFramework/Actor.h"
 
 
 // Sets default values for this component's properties
@@ -20,7 +20,8 @@ void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 	FString objectName = GetOwner()->GetName();
-	UE_LOG(LogTemp, Warning, TEXT("Cet objet a pour identifiant %s"), *objectName);
+	FString objectPos = "X = " + GetOwner()->GetTransform().GetLocation().ToString() +", Y= , .";
+	UE_LOG(LogTemp, Warning, TEXT("Cet objet qui a pour identifiant %s est à la position %s"), *objectName, *objectPos);
 
 	// ...
 	
