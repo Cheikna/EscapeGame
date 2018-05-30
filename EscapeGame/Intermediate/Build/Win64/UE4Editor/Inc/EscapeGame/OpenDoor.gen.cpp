@@ -44,6 +44,13 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_doorCloseDelay_MetaData[] = {
+				{ "Category", "OpenDoor" },
+				{ "ModuleRelativePath", "OpenDoor.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_doorCloseDelay = { UE4CodeGen_Private::EPropertyClass::Float, "doorCloseDelay", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, doorCloseDelay), METADATA_PARAMS(NewProp_doorCloseDelay_MetaData, ARRAY_COUNT(NewProp_doorCloseDelay_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pressurePlate_MetaData[] = {
 				{ "Category", "OpenDoor" },
 				{ "ModuleRelativePath", "OpenDoor.h" },
@@ -56,8 +63,9 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 				{ "ModuleRelativePath", "OpenDoor.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_openAngle = { UE4CodeGen_Private::EPropertyClass::Float, "openAngle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, openAngle), METADATA_PARAMS(NewProp_openAngle_MetaData, ARRAY_COUNT(NewProp_openAngle_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_openAngle = { UE4CodeGen_Private::EPropertyClass::Float, "openAngle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, openAngle), METADATA_PARAMS(NewProp_openAngle_MetaData, ARRAY_COUNT(NewProp_openAngle_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_doorCloseDelay,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_pressurePlate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_openAngle,
 			};
@@ -79,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 2270793161);
+	IMPLEMENT_CLASS(UOpenDoor, 3246801187);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UOpenDoor(Z_Construct_UClass_UOpenDoor, &UOpenDoor::StaticClass, TEXT("/Script/EscapeGame"), TEXT("UOpenDoor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenDoor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
