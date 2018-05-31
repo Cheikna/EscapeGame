@@ -1,0 +1,26 @@
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading EscapeGameEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Parsing headers for EscapeGameEditor
+    Running UnrealHeaderTool "D:\GitHub\EscapeGame\EscapeGame\EscapeGame.uproject" "D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\EscapeGameEditor\DebugGame\EscapeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeGameEditor in 14,7097132 seconds
+  Performing 14 actions (2 in parallel)
+  [2/14] Resource PCLaunch.rc
+  SharedPCH.Engine.NonOptimized.cpp
+  EscapeGame.cpp
+  EscapeGameGameModeBase.cpp
+  Grabber.cpp
+  OpenDoor.cpp
+  PositionReport.cpp
+  EscapeGame.init.gen.cpp
+  EscapeGameGameModeBase.gen.cpp
+  Grabber.gen.cpp
+  OpenDoor.gen.cpp
+  PositionReport.gen.cpp
+  [13/14] Link UE4Editor-EscapeGame-9402-Win64-DebugGame.dll
+  [14/14] Link UE4Editor-EscapeGame-9402-Win64-DebugGame.lib
+     CrÚation de la bibliothÞque D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-EscapeGame-9402-Win64-DebugGame.lib et de l'objet D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-EscapeGame-9402-Win64-DebugGame.exp
+     CrÚation de la bibliothÞque D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-EscapeGame-9402-Win64-DebugGame.suppressed.lib et de l'objet D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-EscapeGame-9402-Win64-DebugGame.suppressed.exp
+  Deploying EscapeGameEditor Win64 DebugGame...
+  Total build time: 96,89 seconds (Local executor: 53,46 seconds)

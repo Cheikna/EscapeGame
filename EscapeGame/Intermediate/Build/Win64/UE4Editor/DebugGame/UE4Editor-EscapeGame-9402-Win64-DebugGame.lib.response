@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-EscapeGame-9402-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\EscapeGame.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\EscapeGameGameModeBase.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\Grabber.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\OpenDoor.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\PositionReport.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\EscapeGame.init.gen.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\EscapeGameGameModeBase.gen.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\Grabber.gen.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\OpenDoor.gen.cpp.obj"
+"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\EscapeGame\PositionReport.gen.cpp.obj"
+"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\PCLaunch.rc.res"
+"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\GitHub\EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-EscapeGame-9402-Win64-DebugGame.lib"
